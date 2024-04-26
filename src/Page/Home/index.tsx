@@ -1,20 +1,17 @@
+import { useState } from "react";
 import Card from "../../Components/Common/Card";
-
 import GridContainer from "../../Components/Common/GridContainer";
+import Modal from "../../Components/Common/Modal";
+import { Button } from "../../Components/Common/Button";
 
 const Page = () => {
+  const [isOpen, setIsOpen] = useState(false);
   return (
-    <GridContainer column={4} gap={4}>
-      <Card
-        title="learn javascript course"
-        description="11"
-        src="https://i.postimg.cc/R0YgdcN5/4482fe09d95a0be765154b9cefff5e07f7fc32ff.webp"
-      />
-      <Card
-        title="learn javascript course"
-        description="11"
-        src="https://i.postimg.cc/R0YgdcN5/4482fe09d95a0be765154b9cefff5e07f7fc32ff.webp"
-      />
+    <GridContainer column={1} gap={4}>
+      <Button onClick={() => setIsOpen(true)}>Open Modal</Button>
+      <Modal isOpen={isOpen} onClose={() => setIsOpen(false)}>
+        1
+      </Modal>
     </GridContainer>
   );
 };
