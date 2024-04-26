@@ -13,6 +13,7 @@ const StyledHeader = styled.div`
   padding: 1rem 0.5rem;
   background-color: var(--primary-200);
   font-weight: normal;
+  gap: 20px;
 `;
 
 const Header: React.FC<HeaderProps> = ({ children }) => {

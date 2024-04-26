@@ -5,6 +5,7 @@ ${normalize()}
 html{
     font-size: 16px;
     box-shadow: box-sizing;
+    background-color: ${({ theme }) => theme.body};
 }
 *,*:before,*:after{
     box-sizing: inherit;
