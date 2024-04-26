@@ -1,10 +1,11 @@
 import GridContainer from "../../Components/Common/GridContainer";
+import { Button } from "../../Components/Common/Button";
 
 const About = () => {
   return (
-    <GridContainer column={1} gap={1}>
-      1
-    </GridContainer>
+    <>
+      <Button>1</Button>
+    </>
   );
 };
 
