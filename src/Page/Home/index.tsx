@@ -1,4 +1,3 @@
-import { PrimaryButton } from "../../Components/Common/Button";
 import Card from "../../Components/Common/Card";
 
 import GridContainer from "../../Components/Common/GridContainer";
@@ -11,29 +10,6 @@ const Page = () => {
         description="11"
         src="https://i.postimg.cc/R0YgdcN5/4482fe09d95a0be765154b9cefff5e07f7fc32ff.webp"
       />
-      <Card
-        title="learn javascript course"
-        description="11"
-        src="https://i.postimg.cc/R0YgdcN5/4482fe09d95a0be765154b9cefff5e07f7fc32ff.webp"
-      />
-      <Card
-        title="learn javascript course"
-        description="11"
-        src="https://i.postimg.cc/R0YgdcN5/4482fe09d95a0be765154b9cefff5e07f7fc32ff.webp"
-      />
-
-      <Card
-        title="learn javascript course"
-        description="11"
-        src="https://i.postimg.cc/R0YgdcN5/4482fe09d95a0be765154b9cefff5e07f7fc32ff.webp"
-      />
-
-      <Card
-        title="learn javascript course"
-        description="11"
-        src="https://i.postimg.cc/R0YgdcN5/4482fe09d95a0be765154b9cefff5e07f7fc32ff.webp"
-      />
-
       <Card
         title="learn javascript course"
         description="11"
