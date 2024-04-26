@@ -1,5 +1,6 @@
+import { PrimaryButton } from "../../Components/Common/Button";
 import Card from "../../Components/Common/Card";
-import FormButton from "../../Components/Common/FormButton";
+
 import GridContainer from "../../Components/Common/GridContainer";
 
 const Page = () => {
