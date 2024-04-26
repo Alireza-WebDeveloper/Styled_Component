@@ -9,9 +9,11 @@
     "lint": "eslint src --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
     "storybook": "storybook dev -p 6006",
-    "build-storybook": "storybook build"
+    "build-storybook": "storybook build",
+    "build-storybook-public": "build-storybook -s public"
   },
   "dependencies": {
+    "@storybook/addon-docs": "^8.0.9",
     "polished": "^4.3.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
